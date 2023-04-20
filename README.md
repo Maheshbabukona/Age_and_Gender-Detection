@@ -13,6 +13,8 @@ The project contains below mentioned files:
 
 #people.mp4: This file is a sample input file to test the model on video inputs
 
+You can download the below mentioned files via this link -https://drive.google.com/file/d/1ke8K9NjjPsAdo5IQMLRfrjG0bU_hE2r8/view?usp=share_link
+
 #gender_net.caffemodel: Pre-trained model weights for gender detection.
 
 #gender_deploy.prototxt: Model architecture for the gender detection model.
