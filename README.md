@@ -7,11 +7,13 @@ This project is a Python-based implementation of a model that can predict the ag
 
 The project contains below mentioned files:
 
-#age_gender_detector.ipynb: This file contains the code for the age and gender detection model. It uses OpenCV for face detection and pre-trained models for age and gender classification. The script can accept both image and video inputs and produces outputs with age and gender predictions.
+#age_and_gender_Detection.ipynb: This file contains the code for the age and gender detection model. It uses OpenCV for face detection and pre-trained models for age and gender classification. The script can accept both image and video inputs and produces outputs with age and gender predictions.
 
 #people.jpg: This file is a sample input file to test the model on image inputs
 
 #people.mp4: This file is a sample input file to test the model on video inputs
+
+->Model files 
 
 You can download the below mentioned files via this link -[https://drive.google.com/file/d/1ke8K9NjjPsAdo5IQMLRfrjG0bU_hE2r8/view?usp=share_link](https://drive.google.com/uc?id=1ke8K9NjjPsAdo5IQMLRfrjG0bU_hE2r8&export=download)
 
