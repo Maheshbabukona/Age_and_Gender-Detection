@@ -30,10 +30,8 @@ You can download the below mentioned files via this link -[https://drive.google.
 The age_gender_detector.ipynb script is designed to be modular and can be used as a starting point for building more complex age and gender detection systems. The script is well-commented and provides clear explanations of the functions and methods used in the code.
 
 To run the code, users need to have Python 3 installed along with the required packages: OpenCV, numpy, and matplotlib along with the pre-trained models for age and gender detection which can be downloaded using the included link above or using the below mentioned code using google colab
-Downloading pretrained data and unzipping it
-!gdown https://drive.google.com/uc?id=1_aDScOvBeBLCn_iv0oxSO8X1ySQpSbIS
- https://drive.google.com/uc?id=1_aDScOvBeBLCn_iv0oxSO8X1ySQpSbIS
-!unzip modelNweight.zip
+(!gdown https://drive.google.com/uc?id=1_aDScOvBeBLCn_iv0oxSO8X1ySQpSbIS
+!unzip modelNweight.zip)
 
 The output of the scripts will be saved in a new file with the age and gender predictions overlaid on the original input which is saved as output.avi(I converted the avi into mp4 and included it in the repository)
 
