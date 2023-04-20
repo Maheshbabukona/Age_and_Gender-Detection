@@ -7,23 +7,23 @@ This project is a Python-based implementation of a model that can predict the ag
 
 The project contains below mentioned files:
 
-age_gender_detector.ipynb: This file contains the code for the age and gender detection model. It uses OpenCV for face detection and pre-trained models for age and gender classification. The script can accept both image and video inputs and produces outputs with age and gender predictions.
+#age_gender_detector.ipynb: This file contains the code for the age and gender detection model. It uses OpenCV for face detection and pre-trained models for age and gender classification. The script can accept both image and video inputs and produces outputs with age and gender predictions.
 
-people.jpg: This file is a sample input file to test the model on image inputs
+#people.jpg: This file is a sample input file to test the model on image inputs
 
-people.mp4: This file is a sample input file to test the model on video inputs
+#people.mp4: This file is a sample input file to test the model on video inputs
 
-gender_net.caffemodel: Pre-trained model weights for gender detection.
+#gender_net.caffemodel: Pre-trained model weights for gender detection.
 
-gender_deploy.prototxt: Model architecture for the gender detection model.
+#gender_deploy.prototxt: Model architecture for the gender detection model.
 
-age_net.caffemodel:Pre-trained model weights for age detection.
+#age_net.caffemodel:Pre-trained model weights for age detection.
 
-age_deploy.prototxt:Model architecture for the age detection model.
+#age_deploy.prototxt:Model architecture for the age detection model.
 
-opencv_face_detector_uint8.pb: Pre-trained model weights for face detection.
+#opencv_face_detector_uint8.pb: Pre-trained model weights for face detection.
 
-opencv_face_detector.pbtxt: Model architecture for the face detection model.
+#opencv_face_detector.pbtxt: Model architecture for the face detection model.
 
 The age_gender_detector.ipynb script is designed to be modular and can be used as a starting point for building more complex age and gender detection systems. The script is well-commented and provides clear explanations of the functions and methods used in the code.
 
@@ -32,5 +32,3 @@ To run the code, users need to have Python 3 installed along with the required p
 The output of the scripts will be saved in a new file with the age and gender predictions overlaid on the original input which is saved as output.avi(I converted the avi into mp4 and included it in the repository)
 
 In the README file for the GitHub repository, users can find detailed instructions on how to install and run the code along with information about the model and the input and output formats. The README file should also include information on how to cite the repository if users plan to use the code for academic or research purposes.
-
-
